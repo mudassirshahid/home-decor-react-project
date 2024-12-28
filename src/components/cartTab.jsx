@@ -23,7 +23,7 @@ const CartTab = () => {
         </div>
         <div className='grid grid-cols-2'>
             <button className='bg-black text-white' onClick={handleCloseTabCart}>CLOSE</button>
-            <button className='bg-amber-600 text-white'>CHECKOUT</button>
+            <button className='bg-amber-600 text-white' onClick={() => {alert("Ordered Successfully")}}>CHECKOUT</button>
         </div>
     </div>
   )
