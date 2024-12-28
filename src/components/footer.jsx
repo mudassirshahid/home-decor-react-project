@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -190,7 +191,7 @@ const Footer = () => {
     <hr className="mt-16 mb-10 border-gray-800" />
     <div className="flex flex-wrap items-center justify-between">
       <div className='text-xl text-blue-300'>
-        HomeDecor
+        <Link to={'/'}>HomeDecor</Link> 
       </div>
       <ul className="flex items-center space-x-3 md:order-3">
         <li>

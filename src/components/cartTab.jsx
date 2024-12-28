@@ -11,7 +11,7 @@ const CartTab = () => {
         dispatch(toggleStatusTab());
     }
   return (
-    <div className={`fixed top-0 right-0 bg-gray-700 shadow-2xl sm:w-96 h-full grid grid-rows-[60px_1fr_60px] 
+    <div className={`overflow-y-auto fixed top-0 right-0 bg-gray-700 shadow-2xl sm:w-96 h-full grid grid-rows-[60px_1fr_60px] 
     transform transition-transform duration-500
     ${statusTab === false ? "translate-x-full" : ""}
     `}>
